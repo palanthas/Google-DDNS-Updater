@@ -11,6 +11,7 @@ I created this for a friend who needed to be able to update his Google Dynamic D
 
 That's pretty much it. Granted, you'll want to consider creating a scheduled task to run the script on a regular basis.
 
+## Side notes
 I'm using ifconfig.co to get the public IP. Per their page we can use their service so long as we don't exceed 1 request per minute.
 
 Considering that your public IP shouldn't change very frequently I opted to set my friend's schedule to run only once per hour. The only downside to this is if you force your IP to change (like replacing your router) then you may have to manualy run the updater once to instantly change your DNS records.

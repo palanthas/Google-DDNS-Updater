@@ -3,7 +3,7 @@ Batch Script for updating Google's Dynamic DNS Synthetic Records
 
 I created this for a friend who needed to be able to update his Google Dynamic DNS records from his Windows desktop. I opted for a batch file because I didn't have a whole lot of time to write anything else that I could guarantee would work on his computer.
 
-##How to use
+## How to use
 1. Copy the GUpdater.bat file to your computer
 2. Fill in the Username/Password fields with the generated credentials from your synthetic record
 3. Fill in the Hostname field with your domain name or sub-domain from your synthetic record
